@@ -1,0 +1,100 @@
+<resources>
+
+    <style name="translucent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="activity_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/category_home</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="main_tab_but_linear">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="function_type_style">
+        <item name="android:layout_margin">4dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="account_more_list_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:paddingLeft">25dip</item>
+        <item name="android:background">@drawable/account_more_item_background</item>
+    </style>
+
+    <!-- schedule show -->
+    <style name="show_tv1">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:layout_marginLeft">1.5dp</item>
+    </style>
+
+    <style name="show_tv2">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="show_tv3">
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

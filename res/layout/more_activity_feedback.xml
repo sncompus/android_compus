@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#1788D8"
+            android:text="意见反馈"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <EditText
+            android:id="@+id/help_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="请输入您的反馈意见(字数500以内)！"
+            android:lines="5"
+            android:text="" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/but_help_feedback"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_login_selector"
+	        	android:text="@string/more_feedback_submit" >
+            </Button>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/help_allseequestions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:text="下面是常见问题"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/help_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:paddingLeft="15px"
+            android:text="Q:怎么登陆？ \n A:使用学号密码登陆（将使用学校VPN登陆进行验证）."
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/help_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:paddingLeft="15px"
+            android:text="Q:哪些应用必须要登陆? \n A:我的消息，课程表，考表"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/help_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:paddingLeft="15px"
+            android:text="Q:怎样联系管理员? \n A:可以电邮compus_syau@163.com."
+            android:textColor="#000000" >
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

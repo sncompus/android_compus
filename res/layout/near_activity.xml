@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_view" />
+<com.compus.near.BaseListView
+        android:id="@+id/listViewNear"
+        android:layout_width="match_parent" 
+		  android:layout_height="match_parent"
+		  android:cacheColorHint="#00000000"
+		  android:divider="#D4D4D4"
+		  android:dividerHeight="1px"
+		  android:listSelector="#FDFBFB"
+		  android:drawSelectorOnTop="false">
+    </com.compus.near.BaseListView>
+<!--     <ListView -->
+<!--         android:id="@+id/listViewNews" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!-- 		android:layout_marginBottom="10dp"           -->
+<!--         android:cacheColorHint="#00000000" -->
+<!--         android:divider="#2A4562" -->
+<!--         android:dividerHeight="4px" -->
+<!--         android:listSelector="#264365" -->
+<!--         android:drawSelectorOnTop="false"> -->
+<!--     </ListView> -->
+
+</LinearLayout>

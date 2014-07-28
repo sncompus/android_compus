@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">神农移动校园</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">刷新</string>
+    <string name="category_home">学校要闻</string>
+    <string name="category_channel">我的应用</string>
+    <string name="category_near">生活热点</string>
+    <string name="category_account">我的消息</string>
+    <string name="category_more">更多</string>
+    <string name="my_account">我的帐号</string>
+    <string name="setting">设置</string>
+    <string name="feedback">信息反馈</string>
+    <string name="help">使用帮助</string>
+    <string name="about">更多</string>
+     <string name="cancel">取消</string>
+     <string name="setting_msgupdate">每次进入自动更新消息</string>
+     <string name="setting_schedule">上课时静音</string>
+     <string name="setting_push">接收推送通知</string>
+      <string name="schedule_setting_cancel">取消静音设置</string>
+      <string name="schedule_add">添加静音设置</string>
+      <string name="schedule_detail">课程详情</string>
+      <string name="schedule_exam">考试</string>
+    <string name="more_feedback_submit">提交</string>
+	<string name="main_login">登录</string>
+	<string name="login_user_hint">学号</string>
+	<string name="login_passwd_hint">密码</string>
+	<string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请选择邮件的方式将此错误报告提交给我，我会尽快修复这个问题，谢谢！</string>
+    <string name="submit_report">提交报告</string>
+	<string name="version">版本号:</string>
+	<string name="version_NUMBER">1.0 beta</string>
+	<string name="kelly">农大学生创新中心</string>
+	<string name="writer">版权:</string>
+</resources>
